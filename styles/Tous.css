@@ -9,6 +9,16 @@
 }
 .bas{
     display: flex;
-    justify-content: flex-start;
+    justify-content : space-between
+    
+    
+    
+}
+.gauche {
+  width: 600px;  
+}
+.droite {
+    display: flex;
     width: 600px;
+    flex-direction: column
 }
