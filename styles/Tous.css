@@ -7,3 +7,8 @@
 .Grand-titre{
     font-size : 5em;
 }
+.bas{
+    display: flex;
+    justify-content: flex-start;
+    width: 600px;
+}

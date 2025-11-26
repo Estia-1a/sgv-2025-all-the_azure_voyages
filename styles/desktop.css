@@ -1,9 +1,0 @@
-.haut{
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    justify-content: space-between;
-}
-.Grand-titre{
-    font-size : 5em;
-}
