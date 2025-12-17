@@ -6,7 +6,7 @@
 }
 .Grand-titre{
     font-size : 5em;
-    border-radius: 8px;
+    color: #0F5530;
 }
 .bas_accueil{
     display: flex;
