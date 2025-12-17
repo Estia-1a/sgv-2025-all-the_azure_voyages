@@ -9,9 +9,7 @@
 }
 .bas{
     display: flex;
-    justify-content : space-between
-    
-    
+    justify-content : space-between   
     
 }
 .gauche {
@@ -23,8 +21,11 @@
     flex-direction: column
 }
 .card {
-
     background-color: white;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
 }
 
 .connexion.html {
