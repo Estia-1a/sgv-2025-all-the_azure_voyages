@@ -1,4 +1,4 @@
-.haut{
+.main_haut{
     display: flex;
     align-items: center;
     gap: 20px;
@@ -6,16 +6,18 @@
 }
 .Grand-titre{
     font-size : 5em;
+    background-color: #059526;
+    border-radius: 8px;
 }
-.bas{
+.bas_accueil{
     display: flex;
     justify-content : space-between   
     
 }
-.gauche {
+.gauche_accueil {
   width: 600px;  
 }
-.droite {
+.droite_accueil {
     display: flex;
     width: 600px;
     flex-direction: column
@@ -28,7 +30,22 @@
     
 }
 
-.connexion.html {
+ .bouton_compte {
+
+    background-color: #059526;      
+    color: rgb(124, 5, 5);                   
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;             
+    cursor: pointer;
+    transition: all 0.5s ease; 
+
+
+ }
+ .image_compte {
+
 
     
-}
+ }
