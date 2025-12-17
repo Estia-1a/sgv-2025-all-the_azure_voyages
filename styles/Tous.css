@@ -6,8 +6,7 @@
 }
 .Grand-titre{
     font-size : 5em;
-    background-color: #059526;
-    border-radius: 8px;
+    color: #0F5530;
 }
 .bas_accueil{
     display: flex;
@@ -23,7 +22,7 @@
     flex-direction: column
 }
 .card {
-    background-color: white;
+    background-color: #FAF7F2;
     display:flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -32,8 +31,8 @@
 
  .bouton_compte {
 
-    background-color: #059526;      
-    color: rgb(124, 5, 5);                   
+    background-color: #0F5530;      
+    color: #C73833;                   
     padding: 12px 24px;
     font-size: 16px;
     font-weight: bold;
@@ -47,5 +46,5 @@
  .image_compte {
 
 
-    
+
  }
