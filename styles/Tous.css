@@ -6,6 +6,8 @@
 }
 .Grand-titre{
     font-size : 5em;
+    background-color: #1e90ff;
+    border-radius: 8px;
 }
 .bas{
     display: flex;
@@ -27,7 +29,17 @@
     background-color: white;
 }
 
-.connexion.html {
+ .bouton_compte {
 
-    
-}
+    background-color: #1e90ff;      
+    color: white;                   
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;             
+    cursor: pointer;
+    transition: all 0.5s ease; 
+
+
+ }
