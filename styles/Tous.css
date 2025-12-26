@@ -14,13 +14,31 @@
     
 }
 .gauche_accueil {
-  width: 600px;  
+  
+  border:thin #0F5530 solid;
+
+}
+.basgauche_accueil {
+  border:thin #0F5530 solid;
+
 }
 .droite_accueil {
-    display: flex;
-    width: 600px;
-    flex-direction: column
+   border:thin #0F5530 solid;
 }
+
+
+.millieu_accueil{
+
+    border:thin #0F5530 solid;
+}
+
+.millieu_bas{
+
+    border:thin #0F5530 solid;
+}
+
+
+
 .card {
     background-color: #FAF7F2;
     display:flex;
