@@ -104,3 +104,10 @@ padding: 12px 24px;
     align-items: baseline;
     gap: 10px
 }
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    gap: 10px
+}
