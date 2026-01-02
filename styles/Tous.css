@@ -66,3 +66,35 @@
 padding: 12px 24px;
 
  }
+
+ .Information_personnelle {
+    margin-left : 200px;
+    margin-right : 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: space-around;
+    padding: 50px;
+    justify-content: center;
+    background-color: white; 
+    border: thin black solid;
+    border-radius: 30px;
+ }
+ .bas_profil {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+ }
+ .Annuler{ background-color: white; 
+    border: thin black solid;
+    border-radius: 10px;
+    padding : 5px;
+    gap: 0px;
+}
+.Enregistrer{ background-color: grey; 
+    border: thin black solid;
+    border-radius: 10px;
+    padding : 5px;
+    gap: 0px;
+}
