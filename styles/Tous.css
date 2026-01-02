@@ -13,31 +13,49 @@
     justify-content : space-between   
     
 }
-.gauche_accueil {
-  
-  border:thin #0F5530 solid;
-
+.gauche_accueil{
+    margin-left : 20px;
+    margin-right : 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: space-around;
+    padding: 5px;
+    justify-content: center;
+    background-color: white; 
+    border: thin black solid;
+    border-radius: 30px;
+    align-self: flex-start;
 }
-.basgauche_accueil {
-  border:thin #0F5530 solid;
-
-}
-.droite_accueil {
-   border:thin #0F5530 solid;
-}
-
 
 .millieu_accueil{
-
-    border:thin #0F5530 solid;
+     margin-left : 5px;
+    margin-right : 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: space-around;
+    padding: 5px;
+    justify-content: center;
+    background-color: white; 
+    border: thin black solid;
+    border-radius: 30px;
+    align-self: flex-start;
 }
-
-.millieu_bas{
-
-    border:thin #0F5530 solid;
+.droite_accueil{
+     margin-left : 5px;
+    margin-right : 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: space-around;
+    padding: 5px;
+    justify-content: center;
+    background-color: white; 
+    border: thin black solid;
+    border-radius: 30px;
+    align-self: flex-start;
 }
-
-
 
 .card {
     background-color: #FAF7F2;
