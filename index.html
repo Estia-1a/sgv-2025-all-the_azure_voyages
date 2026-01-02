@@ -8,103 +8,105 @@
     <link rel="stylesheet" href="styles/desktop.css" media="screen and (min-width: 768px)"> 
     <link rel="stylesheet" href="styles/mobile.css" media="screen and (max-width: 767px)">
 
+    <!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
     <title>Osasuna - Accueil</title>
+
     <style>
         html, body {
-        height: 100%;           /* IMPORTANT : permet au body de prendre toute la hauteur */
-        margin: 0;              /* Enlever les marges par défaut */
-          }
+            height: 100%;
+            margin: 0;
+        }
 
         body {
-        background-color:#FAF7F2
+            background-color: #FAF7F2;
         }
-</style>
+
+        .center {
+            text-align: center;
+        }
+    </style>
 </head>
 
-
 <body>
+
     <div class="main_haut">
         <img class="Logo" src="./media/pictures/logo.png" alt="Logo Osasuna" height="200" width="200">
         <h1 class="Grand-titre">OSASUNA®</h1>
 
         <section class="card">
-        <button class="bouton_compte"
-        onclick="window.location.href='Profil.html'">COMPTE
-        </button>
-        <img class="image"
-        src="media/pictures/utilisateur.png" alt="Image COMPTE" height="100" width="100">
+            <button class="bouton_compte" onclick="window.location.href='Profil.html'">
+                COMPTE
+            </button>
+            <img class="image" src="media/pictures/utilisateur.png" alt="Image compte" height="100" width="100">
         </section>
-        </div>
+    </div>
 
-      <div class ="bas_accueil">
+    <div class="bas_accueil">
 
         <div class="gauche_accueil">
-          <h1 class="TitreRDV"
-          align="center"> Tes rendez vous : </h1>
-          <p>KINE avec monsieur Paxkal Lundi 08/12/2025</p>
-          <p>Consultation médecin généraliste – 12 mars – 09h30</p>
-          <p>Séance de kinésithérapie – 13 mars – 16h00</p>
-          <p>Rendez-vous diététicien – 15 mars – 11h15</p>
-          <p>Atelier gestion du stress – 18 mars – 18h30</p>
-          <p>Bilan sommeil – 20 mars – 08h45</p>
-          <p>Consultation infirmière – 22 mars – 14h00</p>
+            <h1 class="TitreRDV center">Tes rendez-vous :</h1>
 
+            <p>KINE avec monsieur Paxkal Lundi 08/12/2025</p>
+            <p>Consultation médecin généraliste – 12 mars – 09h30</p>
+            <p>Séance de kinésithérapie – 13 mars – 16h00</p>
+            <p>Rendez-vous diététicien – 15 mars – 11h15</p>
+            <p>Atelier gestion du stress – 18 mars – 18h30</p>
+            <p>Bilan sommeil – 20 mars – 08h45</p>
+            <p>Consultation infirmière – 22 mars – 14h00</p>
 
-          <div class="basgauche_accueil">
-            <h1 align="center" classe="Titre_sommeil">Evolution de ton sommeil :</h1>
-            <img src="media/pictures/dcfefe4e-a0e6-402f-9345-8406bcd899d4.png" alt="Graphique sommeil" height="240" width="400">
-
-          </div>
-
+            <div class="basgauche_accueil">
+                <h1 class="Titre_sommeil center">Évolution de ton sommeil :</h1>
+                <img src="media/pictures/dcfefe4e-a0e6-402f-9345-8406bcd899d4.png"
+                     alt="Graphique sommeil"
+                     height="240"
+                     width="400">
+            </div>
         </div>
 
         <div class="millieu_accueil">
-          <h1 class="Tableau_de_bord" align="center"> Tableau de bord : </h1>
-          <p align="center" > 🏃 Activité </p>
-          <p>6 200 pas / 8 000 </p>
-          <p>▮▮▮▮▮▯▯▯</p>
-          <p>Objectif presque atteint</p>
-          <p align="center">😴 Sommeil</p>
-          <p>7h10</p>
-          <p>✅ Qualité : Bonne</p>
+            <h1 class="Tableau_de_bord center">Tableau de bord :</h1>
 
-          <div class="millieu_bas">
-          <h1 class="Conseils personnalisés " align="center"> Conseils personnalisés </h1>
-          <p>Carte conseil n°1 – Activité physique</p>
-          <p>Bougez un peu plus aujourd’hui</p>
-          <p>“Votre niveau d’activité est plus faible que la semaine dernière.”</p>
-          <p>✅ Suggestion :</p>
-          <p>20 minutes de marche après le dîner</p>
+            <p class="center">🏃 Activité</p>
+            <p>6 200 pas / 8 000</p>
+            <p>▮▮▮▮▮▯▯▯</p>
+            <p>Objectif presque atteint</p>
 
-          </div>
+            <p class="center">😴 Sommeil</p>
+            <p>7h10</p>
+            <p>✅ Qualité : Bonne</p>
 
+            <div class="millieu_bas">
+                <h1 class="Conseils_personnalises center">Conseils personnalisés</h1>
+                <p>Carte conseil n°1 – Activité physique</p>
+                <p>Bougez un peu plus aujourd’hui</p>
+                <p>« Votre niveau d’activité est plus faible que la semaine dernière. »</p>
+                <p>✅ Suggestion :</p>
+                <p>20 minutes de marche après le dîner</p>
+            </div>
         </div>
-          
-          
 
         <div class="droite_accueil">
-          <h1 class="Activité physique" align="center"> Activité physique</h1>
-          <img class="graphique"
-          src="media/pictures/Activité_sportive.png" alt="graphique Activité sportive" height="240" width="400"
-
+            <h1 class="Activite_physique center">Activité physique</h1>
+            <img class="graphique"
+                 src="media/pictures/Activité_sportive.png"
+                 alt="Graphique activité sportive"
+                 height="240"
+                 width="400">
         </div>
 
-          <div class="bas_droite">
-            <h1 class="Alimentation du jour" align="center"> Alimentation du jour</h1>
-            <p align="center"> Petit-déjeuner :</p>
+        <div class="bas_droite">
+            <h1 class="Alimentation_du_jour center">Alimentation du jour</h1>
+            <p class="center">Petit-déjeuner :</p>
             <p>- Café au lait</p>
             <p>- Tartine de pain complet</p>
             <p>- Confiture de cerise noire</p>
+        </div>
 
-          </div>
+    </div>
 
-        
-
-
-
-
-      </div>
-    
-    
 </body>
 </html>
+
