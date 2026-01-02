@@ -4,10 +4,14 @@
 }
 
 .Logo{
-  width: 20%;
-  height: auto;
+  width: 125px  ;
+  height: 125px;
 }
  .Information_personnelle {
     margin-left : 50px;
     margin-right : 50px;
  }
+
+.main_haut{
+    margin-top : 25px;
+}

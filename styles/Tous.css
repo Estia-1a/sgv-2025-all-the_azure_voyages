@@ -3,6 +3,7 @@
     align-items: center;
     gap: 20px;
     justify-content: space-between;
+    margin-top : 10px;
 }
 .Grand-titre{
     font-size : 4em;
