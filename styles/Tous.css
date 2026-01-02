@@ -1,131 +1,128 @@
-.main_haut{
+.main_haut {
     display: flex;
     align-items: center;
-    gap: 20px;
     justify-content: space-between;
+    gap: 20px;
 }
-.Grand-titre{
-    font-size : 4em;
+
+.Grand-titre {
+    font-size: 4em;
     color: #0F5530;
 }
-.bas_accueil{
+
+.bas_accueil {
     display: flex;
-    justify-content : space-between   
-    
+    justify-content: space-between;
 }
-.gauche_accueil{
-    margin-left : 20px;
-    margin-right : 5px;
+
+.gauche_accueil {
+    margin-left: 20px;
+    margin-right: 5px;
     display: flex;
     flex-direction: column;
     gap: 10px;
-    justify-content: space-around;
     padding: 5px;
     justify-content: center;
-    background-color: white; 
-    border: thin black solid;
+    background-color: white;
+    border: thin solid black;
     border-radius: 30px;
     align-self: flex-start;
 }
 
-.millieu_accueil{
-     margin-left : 5px;
-    margin-right : 5px;
+.millieu_accueil {
+    margin-left: 5px;
+    margin-right: 5px;
     display: flex;
     flex-direction: column;
     gap: 10px;
-    justify-content: space-around;
     padding: 5px;
     justify-content: center;
-    background-color: white; 
-    border: thin black solid;
+    background-color: white;
+    border: thin solid black;
     border-radius: 30px;
     align-self: flex-start;
 }
-.droite_accueil{
-     margin-left : 5px;
-    margin-right : 20px;
+
+.droite_accueil {
+    margin-left: 5px;
+    margin-right: 20px;
     display: flex;
     flex-direction: column;
     gap: 10px;
-    justify-content: space-around;
     padding: 5px;
     justify-content: center;
-    background-color: white; 
-    border: thin black solid;
+    background-color: white;
+    border: thin solid black;
     border-radius: 30px;
     align-self: flex-start;
 }
 
 .card {
     background-color: #FAF7F2;
-    display:flex;
+    display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    
 }
 
- .bouton_compte {
-
-    background-color: #0F5530;      
-    color: #C73833;                   
+.bouton_compte {
+    background-color: #0F5530;
+    color: #C73833;
     padding: 12px 24px;
     font-size: 16px;
     font-weight: bold;
     border: none;
-    border-radius: 8px;             
+    border-radius: 8px;
     cursor: pointer;
-    transition: all 0.5s ease; 
+    transition: all 0.5s ease;
+}
 
+.image {
+    padding: 12px 24px;
+}
 
- }
- .image {
-
-padding: 12px 24px;
-
- }
-
- .Information_personnelle {
-    margin-left : 200px;
-    margin-right : 200px;
+.Information_personnelle {
+    margin-left: 200px;
+    margin-right: 200px;
     display: flex;
     flex-direction: column;
     gap: 10px;
-    justify-content: space-around;
     padding: 50px;
     justify-content: center;
-    background-color: white; 
-    border: thin black solid;
+    background-color: white;
+    border: thin solid black;
     border-radius: 30px;
- }
- .bas_profil {
+}
+
+.bas_profil {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+}
 
- }
- .Annuler{ background-color: white; 
-    border: thin black solid;
+.Annuler {
+    background-color: white;
+    border: thin solid black;
     border-radius: 10px;
-    padding : 5px;
-    gap: 0px;
+    padding: 5px;
 }
-.Enregistrer{ background-color: grey; 
-    border: thin black solid;
+
+.Enregistrer {
+    background-color: grey;
+    border: thin solid black;
     border-radius: 10px;
-    padding : 5px;
-    gap: 0px;
+    padding: 5px;
 }
-.choix{
+
+.choix {
     display: flex;
     flex-direction: row;
     align-items: baseline;
-    gap: 10px
+    gap: 10px;
 }
 
-.menu{
+.menu {
     display: flex;
     flex-direction: row;
     align-items: baseline;
-    gap: 10px
+    gap: 10px;
 }
